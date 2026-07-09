@@ -1,0 +1,27 @@
+{
+  firefox.Firefox = {
+    Icon = firefox.png;
+  };
+  emacs.Emacs = {
+    SharedAppIcon = No;
+    AlwaysUserIcon = Yes;
+    EmulateAppIcon = Yes;
+    Icon = emacs.png;
+  };
+  feh.feh = {
+    AlwaysUserIcon = No;
+    EmulateAppIcon = Yes;
+    Icon = feh.png;
+  };
+  emacs = {
+    AlwaysUserIcon = No;
+    Icon = emacs.png;
+    EmulateAppIcon = Yes;
+  };
+  Logo.WMDock = {
+    Icon = GNUstep.xpm;
+  };
+  sakura.Sakura = {
+    Icon = "utilities-terminal.png";
+  };
+}

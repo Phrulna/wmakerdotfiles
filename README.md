@@ -1,2 +1,3 @@
 # wmakerdotfiles
-My Window Maker config
+My Window Maker config and other things to
+boot strap a new system

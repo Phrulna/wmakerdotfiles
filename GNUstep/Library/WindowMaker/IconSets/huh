@@ -1,0 +1,18 @@
+{
+  firefox.Firefox = {
+    Icon = firefox.png;
+  };
+  emacs.Emacs = {
+    Icon = emacs.png;
+  };
+  feh.feh = {
+    Icon = feh.png;
+  };
+
+  Logo.WMDock = {
+    Icon = GNUstep.xpm;
+  };
+  sakura.Sakura = {
+    Icon = "utilities-terminal.png";
+  };
+}

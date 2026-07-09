@@ -1,0 +1,173 @@
+{
+  Dock = {
+    AutoRaiseLower = No;
+    Applications768 = (
+      {
+        Forced = No;
+        Name = Logo.WMDock;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,0";
+        Lock = No;
+        Command = "-";
+      },
+      {
+        Forced = No;
+        Name = wmacpi.DockApp;
+        DropCommand = "wmacpi -m 2 %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,2";
+        Lock = Yes;
+        PasteCommand = "wmacpi -m 2 %s";
+        Command = "wmacpi -m 2";
+      },
+      {
+        Forced = No;
+        Name = wmclock.WMClock;
+        DropCommand = "wmclock -12 %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,1";
+        Lock = Yes;
+        PasteCommand = "wmclock -12 %s";
+        Command = "wmclock -12";
+      },
+      {
+        Forced = No;
+        Name = wmifinfo.wmifinfo;
+        DropCommand = "wmifinfo %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,3";
+        Lock = Yes;
+        PasteCommand = "wmifinfo %s";
+        Command = wmifinfo;
+      },
+      {
+        Forced = No;
+        Name = alsamixer_app.AlsaMixer_app;
+        DropCommand = "./AlsaMixer.app %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,4";
+        Lock = Yes;
+        PasteCommand = "./AlsaMixer.app %s";
+        Command = "/usr/local/GNUstep/Apps/AlsaMixer.app/AlsaMixer";
+      },
+      {
+        Forced = No;
+        Name = wmcalc.wmcalc;
+        DropCommand = "wmcalc %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,5";
+        Lock = Yes;
+        PasteCommand = "wmcalc %s";
+        Command = wmcalc;
+      }
+    );
+    Applications = (
+      {
+        Forced = No;
+        Name = Logo.WMDock;
+        BuggyApplication = No;
+        AutoLaunch = No;
+        Position = "0,0";
+        Lock = No;
+        Command = "-";
+      },
+      {
+        Forced = No;
+        Name = wmacpi.DockApp;
+        DropCommand = "wmacpi -m 2 %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,2";
+        Lock = Yes;
+        PasteCommand = "wmacpi -m 2 %s";
+        Command = "wmacpi -m 2";
+      },
+      {
+        Forced = No;
+        Name = wmclock.WMClock;
+        DropCommand = "wmclock -12 %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,1";
+        Lock = Yes;
+        PasteCommand = "wmclock -12 %s";
+        Command = "wmclock -12";
+      },
+      {
+        Forced = No;
+        Name = wmifinfo.wmifinfo;
+        DropCommand = "wmifinfo %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,3";
+        Lock = Yes;
+        PasteCommand = "wmifinfo %s";
+        Command = wmifinfo;
+      },
+      {
+        Forced = No;
+        Name = alsamixer_app.AlsaMixer_app;
+        DropCommand = "./AlsaMixer.app %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,4";
+        Lock = Yes;
+        PasteCommand = "./AlsaMixer.app %s";
+        Command = "/usr/local/GNUstep/Apps/AlsaMixer.app/AlsaMixer";
+      },
+      {
+        Forced = No;
+        Name = wmcalc.wmcalc;
+        DropCommand = "wmcalc %d";
+        BuggyApplication = No;
+        AutoLaunch = Yes;
+        Position = "0,5";
+        Lock = Yes;
+        PasteCommand = "wmcalc %s";
+        Command = wmcalc;
+      }
+    );
+    Lowered = Yes;
+    Position = "1302,0";
+  };
+  Clip = {
+    Forced = No;
+    Name = Logo.WMClip;
+    BuggyApplication = No;
+    AutoLaunch = No;
+    Position = "0,0";
+    Lock = No;
+    Command = "-";
+  };
+  Drawers = ();
+  Workspaces = (
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = Yes;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 1";
+    },
+    {
+      Clip = {
+        AutoRaiseLower = No;
+        AutoCollapse = No;
+        Applications = ();
+        Collapsed = No;
+        AutoAttractIcons = No;
+        Lowered = Yes;
+      };
+      Name = "Workspace 2";
+    }
+  );
+}
