@@ -1,0 +1,9 @@
+Theme Name  : AM
+Author      : Largo (largo@current.nu)
+Description : this started out as a remix of
+              BlueRoom and ended up something
+              entirely different... funny how
+              things do that sometimes...
+Copyright   : woman from painting by A.M. (can't 
+              remember his name)
+Web Site    : http://wm.current.nu/

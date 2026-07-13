@@ -1,0 +1,6 @@
+The dockapps I use in order of them on the dock
+
+wmacpi (for battery)
+wmclock (clock)
+wmifinfo (wifi, probably not spelt right)
+wmamixer (audio control)

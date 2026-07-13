@@ -1,0 +1,17 @@
+{
+  emacs.Emacs = {
+    Icon = emacs.png;
+  };
+  Logo.WMDock = {
+    Icon = larry.png;
+  };
+  Navigator.firefox = {
+    Icon = firefox.png;
+  };
+  sakura.Sakura = {
+    Icon = sakura.png;
+  };
+  feh.feh = {
+   Icon = feh.png;
+  };
+}

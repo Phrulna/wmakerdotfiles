@@ -1,0 +1,7 @@
+This is a theme included in the wmthemes Gentoo package
+
+I have no idea where it's from, I wish I did.
+
+If you find it let me know
+
+	-Phrulna
